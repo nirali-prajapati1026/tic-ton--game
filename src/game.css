@@ -1,0 +1,62 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    font-size: 62.5%;
+  }
+  h1,h2,h3,h4,h5,h6{
+    color: rgb(15, 15, 15);
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',  sans-serif;
+  }
+  body{
+    background-color: rgb(19, 19, 33);
+  }
+  .contener{
+    margin-top:11px;
+  }
+  .box{
+    width: 200px;
+    height: 180px;
+    border: 2px solid rgb(63, 61, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color:rgb(243, 112, 65) ;
+  }
+  
+  .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box p{
+    font-size: 110px;
+  }
+  .win{
+    text-align: center;
+  }
+  button{
+    width: 130px;
+    height: 37px;
+    background-color: rgb(251, 106, 53);
+    color: #ccc;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .head{
+    text-align: center;
+    margin-top: 10px;
+  }
+  h1{
+    margin-bottom: 10px;
+    color: #ccc;
+  }
